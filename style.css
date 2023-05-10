@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+main {
+    display: flex;
+}
+
+.card {
+    border-radius: 15px 15px 0 0;
+    margin: 25px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    cursor: pointer;
+
+    
+}
+
+.card:hover{
+    box-shadow: 1px 1px 20px rgb(214, 214, 214);
+    transform: translateY(-3px);
+    transition: all ease 0.5s;
+}
+
+.cardimg {
+    display: flex;
+    align-items: center;
+    background: url(https://webcode.tools/img/ottawa.jpg) center center/cover no-repeat;
+    background-color: rgb(58, 58, 58);
+    height: 50px;
+    color: #0e0e0e;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.cardimg > div  {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    background-color: rgb(233, 233, 233);
+    min-width: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card > section > p {
+    padding: 18px;
+
+}
+
+.descri {
+    background-color: rgb(241, 241, 241);
+    min-height: 120px;
+    font-size: 0.8rem;
+}
