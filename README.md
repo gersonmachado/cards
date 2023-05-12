@@ -1,5 +1,5 @@
 <p align="center">
-  # Modelos de Cards
+  # Modelos de Cards e outros complementos
 </p>
 <h2 align="center">HTML/CSS</h2>
 
